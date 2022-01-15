@@ -31,6 +31,8 @@ if we have (7 4 1) = 7 x 256 + 4 x 16 + 1 = 1792 + 64 + 1 = 1857
 (7 C A) = 7 x 256 + C(12) x 16 + A(10) x 1 = 1792 + 192 + 10 = 1994
 
 
+Doubts? You can check [this](/week1/binary-decimal-hexadecimal-numbers.md)
+
 
  
  
