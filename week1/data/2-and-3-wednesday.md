@@ -1,6 +1,6 @@
 # Wednesday Challenges
 
-2. Translate the year you where born to binary, decimal and hexadecimal
+2. Translate the year you where born to binary and hexadecimal numbers
 
 Binary numbers are given in base 2 raised to "n", and we read them with the exponent "0" and increasing it by one from left to right, like this:
 
