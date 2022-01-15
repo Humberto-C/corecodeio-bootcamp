@@ -1,6 +1,6 @@
 # Wednesday Challenges
 
-2. Translate the year you where born to binary and hexadecimal numbers
+## 2. Translate the year you where born to binary and hexadecimal numbers
 
 Binary numbers are given in base 2 raised to "n", and we read them with the exponent "0" and increasing it by one from left to right, like this:
 
@@ -29,6 +29,13 @@ Hexadecimal is quite similar, however, instead of base "2" we will have base "16
 if we have (7 4 1) = 7 x 256 + 4 x 16 + 1 = 1792 + 64 + 1 = 1857
 
 (7 C A) = 7 x 256 + C(12) x 16 + A(10) x 1 = 1792 + 192 + 10 = 1994
+
+
+## 3. Translate 51966 into hexadecimal and binary
+
+51966 = 1100101011111110
+
+51966 = CAFE    :coffee:
 
 
 Doubts? You can check [this](/week1/binary-decimal-hexadecimal-numbers.md)
