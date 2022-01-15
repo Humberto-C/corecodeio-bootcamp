@@ -1,2 +1,2 @@
 # Corecodeio-Bootcamp
-Bootcamp from Scratch: Bootcamp's Progress and assigments 
+Bootcamp from Scratch:Progress of CoreCode Bootcamp and assigments
