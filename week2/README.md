@@ -7,3 +7,7 @@
 ## Tuesday
 
 - CodeWars Challenges [here](/week2/data/codewars-tuesday.js)
+
+## Wednesday
+
+- CodeWars Challenges [here](/week2/data/codewars-wednesday.js)
