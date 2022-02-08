@@ -74,6 +74,13 @@ Good luck!
 */
 
 
+decodeMorse = function(morseCode){
+  let words = morseCode.split('   ');
+  let letters = words.map((el) => el.split(' '))
+  let translate = letters.map((i) => i.map((j) => MORSE_CODE[j]))
+  let merge = translate.map((el) => el.join(''));
+  return merge.join(' ').replace(/^\s+/, '');
+}
 
 
 
