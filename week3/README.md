@@ -9,4 +9,4 @@
 
 ## Wednesday
 
-3.  CodeWars Challenges [here](/week3/data/codewars-wednesday.js)
+3.  CodeWars Challenges [here](/week3/data/codewars-wednesday.md)
