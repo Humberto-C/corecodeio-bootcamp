@@ -36,5 +36,29 @@ Write a function that will return the count of distinct case-insensitive alphabe
 "ABBA" -> 2 # 'A' and 'B' each occur twice
 ```
 
+### First own solution, but I want to improve it before check all answers
+```js
+const duplicateCount = (text) => 
+{
+  let counter = 0;
+  let currentChar = '';
+  let regex = '';
+  let previousLength = text.length;
+  let actualLength = text.length;
+  //counting repeated chars 
+  while (text.length > 0){
+    previousLength = text.length;
+    currentChar = text[0];
+    regex = new RegExp(currentChar, 'gi')
+    text = text.replace(regex, '')
+    actualLength = text.length;
+    actualLength = previousLength - actualLength;
+    if(actualLength >= 2)
+      counter++;    
+  }  
+  return counter;
+  
+};
+```
 
 
