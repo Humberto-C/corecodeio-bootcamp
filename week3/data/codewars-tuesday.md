@@ -60,5 +60,21 @@ const duplicateCount = (text) =>
   
 };
 ```
+### Solution #2 
+
+```js
+const duplicateCount = (txt) => {
+  let cont = 0;
+  while(txt.length > 0){
+    let beforeL = txt.length;
+    txt = txt.replace(RegExp(txt[0], 'gi'), '');
+    let afterL = txt.length;
+    let diff = beforeL - afterL; 
+    if(diff >= 2)
+      cont++;
+  }
+  return cont;
+};
+```
 
 
