@@ -13,13 +13,18 @@
 ""  -->  ""
 ```
 
-### Solution
+<details>
+  <summary>Solution</summary>
+  
 ```js
 const order = (words) => words.split(' ').sort((a, b) => {
   return a.match(/\d/) - b.match(/\d/);
 }).join(' ');
 
 ```
+  
+</details>
+
 ## Challenge #2
 
 ### Count the number of Duplicates
@@ -82,4 +87,16 @@ const duplicateCount = (txt) => {
 };
 ```
 </details>
+
+## Challenge #3
+
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+
+### Example
+
+```
+pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
+pigIt('Hello world !');     // elloHay orldway !
+```
+
 
