@@ -36,7 +36,9 @@ Write a function that will return the count of distinct case-insensitive alphabe
 "ABBA" -> 2 # 'A' and 'B' each occur twice
 ```
 
-### First own solution, but I want to improve it before check all answers
+<details>
+  <summary>First own solution, but I want to improve it before check all answers</summary>
+  
 ```js
 const duplicateCount = (text) => 
 {
@@ -60,7 +62,10 @@ const duplicateCount = (text) =>
   
 };
 ```
-### Solution #2 
+</details>  
+
+<details>
+  <summary>Solution #2</summary>
 
 ```js
 const duplicateCount = (txt) => {
@@ -76,5 +81,5 @@ const duplicateCount = (txt) => {
   return cont;
 };
 ```
-
+</details>
 
