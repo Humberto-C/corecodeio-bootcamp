@@ -99,4 +99,31 @@ pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 ```
 
+<details>
+  <summary>Solution</summary>
+  
+  ```js
+  
+  const pigIt = (str) => {
+  str = str.split(' ');
+  str = str.map((el) => {
+    if(el.match(/\W$/) != null && el.length > 1)
+    {
+      el = el.replace(/(\w+)/, (p1) => p1 + p1[0] + 'ay');
+      el = el.replace(/^./, '');
+    }
+    if(el.match(/\W$/) == null)
+    {
+      el = el.replace(/(\w+)/, (p1) => p1 + p1[0] + 'ay');
+      el = el.replace(/^./, '');
+    }
+    return el;
+  })
+  return str.join(' ');
+}
+  
+  ```
+  
+  
+</details>
 
