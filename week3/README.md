@@ -6,6 +6,7 @@
 
 ## Tuesday
 
+2. CodeWars Challenges [here](/week3/data/codewars-tuesday.js)
 
 ## Wednesday
 
