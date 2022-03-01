@@ -19,7 +19,24 @@ There will always be only one integer that appears an odd number of times.
 <details>
 <summary>Solution</summary>
   
+  ```ts
+    function findOdd(arr: number[]):number {
+      let odd:number = 0;
+      let subStr:number[] = [];
+
+      if(arr.length == 1) return arr[0];
+      else{
+          for(let i = 0; i < arr.length ; i++){
+              let first: number = arr[i];
+              subStr = arr.filter((el:number) => el == first)
+              if(subStr.length % 2 != 0) {
+              odd = subStr[0];
+              return odd;
+              }
+          }
+      }
+  }
   
-  
+  ```  
 </details>
 
