@@ -1,6 +1,6 @@
 # Week 4 Tuesday
 
-1. Challenge
+## 1 Challenge
 
 Given an array of integers, find the one that appears an odd number of times.<br>
 There will always be only one integer that appears an odd number of times.
@@ -39,4 +39,31 @@ There will always be only one integer that appears an odd number of times.
   
   ```  
 </details>
+  
+## 2 Challenge
+  
+Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata).<br> Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.<br>
+
+### Examples: 
+  
+```
+  spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw"
+  spinWords( "This is a test") => returns "This si a tset" 
+  spinWords( "This is another test" )=> returns "This is rehtona test"
+```
+  
+<details>
+  <summary>Solution</summary>
+  
+  ```ts
+  
+  export let spinWords = (words: string): string => words.split(' ')
+    .map((el: string) => el.length > 4 ? el.split('').reverse().join(''): el)
+    .join(' ');  
+  ```
+  
+</details>
+  
+  
+  
 
