@@ -8,7 +8,7 @@
 - Week 2: [Javascript](/week2) 
 - Week 3: [Javascript](/week3) 
 - Week 4: [npm,npx & Typescript](/week4) 
-- Week 5: [Typescript](/week5) 
-- Week 6: [Typescript](/week6) 
-- Week 7: [Typescript](/week7) 
-- Week 8: [HTML & CSS](/week8) 
+- Week 5: [Typescript](/week5) ❎
+- Week 6: [Typescript](/week6) ❎
+- Week 7: [Typescript](/week7) ❎
+- Week 8: [HTML & CSS](/week8) ❎
