@@ -2,9 +2,13 @@
 
 # Corecode.io-Bootcamp
 
-## Bootcamp from Scratch: Progress of CoreCode Bootcamp and assigments
+## Bootcamp from Scratch: Technologies
 
-1. [Week 1](/week1) 
-2. [Week 2](/week2) 
-3. [Week 3](/week3) 
-4. [Week 4](/week4) 
+- Week 1: [Introduction to programming & Javascript](/week1) 
+- Week 2: [Javascript](/week2) 
+- Week 3: [Javascript](/week3) 
+- Week 4: [npm,npx & Typescript](/week4) 
+- Week 5: [Typescript](/week5) 
+- Week 6: [Typescript](/week6) 
+- Week 7: [Typescript](/week7) 
+- Week 8: [HTML & CSS](/week8) 
