@@ -23,10 +23,19 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
   ```  
 </details>
 
+## 2 Challenge
+
+#Find the missing letter
+
+Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.<br>
+You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.<br>
+The array will always contain letters in only one case.<br>
+(Use the English alphabet with 26 letters!)
 
 ### Examples:
 
 ```ts
-
-
+["a","b","c","d","f"] -> "e"
+["O","Q","R","S"] -> "P"
 ```
+
