@@ -1,5 +1,24 @@
 # Week 4 Tuesday
 
+- Read [this](https://blog.logrocket.com/types-vs-interfaces-in-typescript/) ✔️
+<details>
+  <summary>Summary</summary>
+  
+  String, boolean, and number are the basic types of TypeScript. Also, in TypeScript, we have advanced types and in these advanced types, we have something called type aliases. With type aliases, we can create a new name for a type but we don’t define a new type.
+  <br>
+  We use the **type** keyword to create a new type alias, that’s why some people might get confused and think that it’s creating a new type.
+  <br>
+  ### Types vs. interfaces
+  
+  **Interfaces** are basically a way to describe data shapes, for example, an object.
+  <br>
+  **Type** is a definition of a type of data, for example, a union, primitive, intersection, tuple, or any other type.  
+  
+</details>
+
+
+
+
 ## 1 Challenge
 
 Given an array of integers, find the one that appears an odd number of times.<br>
