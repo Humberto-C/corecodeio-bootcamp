@@ -39,3 +39,21 @@ The array will always contain letters in only one case.<br>
 ["O","Q","R","S"] -> "P"
 ```
 
+<details>
+<summary>Solution</summary>
+  
+  ```ts
+ export let findMissingLetter = (arr: string[]):string => {
+    let arrNum: number[] = toCharCode(arr);
+    let missingLetter:string = '';
+    for(let i:number = 0; i < arrNum.length; i++){
+        if(arrNum[i + 1]-arrNum[i] == 2) missingLetter = String.fromCharCode(arrNum[i] + 1);
+    }
+    return missingLetter;
+}
+
+const toCharCode = (arr: string[]): number[] => arr.map((x:string): number => x.charCodeAt(0)); // convert my string[] to number[]
+  
+  ```  
+</details>
+
