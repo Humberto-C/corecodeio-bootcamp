@@ -77,17 +77,23 @@ Find the unique number (this kata) <br>
 [Find The Unique](https://www.codewars.com/kata/5862e0db4f7ab47bed0000e5)<br>
   
 <details>
-<summary>Solution 1 (Unable to handle big arrays)</summary>
+<summary>Solution 1</summary>
   
   ```ts
  
-  const findUniq = (arr:number[]): number => {
-    let uniqNum: number = 0;
-    for(let i:number = 0; i < arr.length; i++){
-        if(arr.filter((x:number): boolean => x == arr[i]).length == 1)
+ export const findUniq = (arr:number[]): number => {
+  let uniqNum: number = 0;
+  let repNum: number = 0;
+  
+  for(let i:number = 0; i < arr.length; i++){
+      if(arr[i] != arr[i + 1]){
         uniqNum = arr[i];
-   }
-   return uniqNum;
+        repNum = arr[i + 1];
+        break;    
+      }
+ }
+  
+ return arr.filter((x:number): boolean => x == uniqNum).length == 1 ? uniqNum: repNum;
 }
   
   ```  
