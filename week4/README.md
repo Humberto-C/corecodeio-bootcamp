@@ -65,7 +65,15 @@ TypeScript is a strongly typed programming language that builds on JavaScript, g
 
 ### Code Challenge Tuesday
 
-- Tuesday [Challenge](./week4/data/codewars-tuesday.md)
+- Tuesday [Challenge](/week4/data/codewars-tuesday.md)
+
+### Code Challenge Wednesday
+
+- Wednesday [Challenge](/week4/data/codewars-wednesday.md)
+
+### Code Challenge Thursday
+
+- Thursday [Challenge](/week4/data/codewars-thursday.md)
 
 
 
