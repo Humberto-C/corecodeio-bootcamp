@@ -59,3 +59,35 @@ In a small town the population is p0 = 1000 at the beginning of a year. The popu
   ```  
 </details>
 
+## 3 Challenge
+
+This time no story, no theory. The examples below show you how to write function accum:
+
+### Example
+
+```
+accum("abcd") -> "A-Bb-Ccc-Dddd"
+accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+accum("cwAt") -> "C-Ww-Aaa-Tttt"  
+```
+
+<details>
+<summary>Solution</summary>
+  
+  ```ts
+  
+ function accum(s: string): string {
+    let str:string = '';
+    s = s.toLocaleLowerCase();
+    for(let i:number = 0; i < s.length; i++){
+        for(let j:number = 0; j <= i; j++){
+            if(j == 0) str += s[i].toUpperCase();
+            else str += s[i];
+        }
+        if(i != s.length -1) str += '-';
+    }
+    return str;
+}
+
+  ```  
+</details>
