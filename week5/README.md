@@ -6,3 +6,4 @@ Learn about classes, instances, inheritance and data type with Typescript
 ### Code Challenge Monday
 
 - Monday [Challenge](/week5/data/codewars-monday.md)
+- Tuesday [Challenge](/week5/data/codewars-tuesday.md)
